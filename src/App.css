@@ -1,22 +1,61 @@
 .main-app {
-  text-align: center;
-  margin: 50px;
+  /* text-align: center; */
+  margin: 15px;
 }
 
 .cta-button {
-  padding: 15px;
+  padding: 10px;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   min-width: 250px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
+  margin-right: 10px;;
+}
+
+.logout-button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  background: orange;
 }
 
 .connect-wallet-button {
   background: rgb(32, 129, 226);
 }
 
-.mint-nft-button {
-  background: orange;
+#profile button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  background: rgb(32, 129, 226);
+}
+
+#profile input {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin-top: 4px;
+  margin-right: 4px;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#profile textarea {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin-top: 4px;
+  margin-right: 4px;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
